@@ -1,0 +1,9 @@
+/vendor
+/node_modules
+/public/storage
+Homestead.yaml
+Homestead.json
+.env
+TeachMe.iws
+.idea/workspace.xml
+.idea/dataSources.local.xml
