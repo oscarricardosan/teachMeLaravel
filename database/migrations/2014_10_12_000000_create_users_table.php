@@ -29,6 +29,6 @@ class CreateUsersTable extends Migration
      */
     public function down()
     {
-        Schema::drop('users');
+        DB::statement('DROP TABLE users CASCADE;');
     }
 }

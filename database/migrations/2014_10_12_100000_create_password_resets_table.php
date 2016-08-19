@@ -26,6 +26,6 @@ class CreatePasswordResetsTable extends Migration
      */
     public function down()
     {
-        Schema::drop('password_resets');
+        DB::statement('DROP TABLE password_resets CASCADE;');
     }
 }
